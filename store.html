@@ -9,127 +9,179 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="store.html">STORE</a></li>
         </ul>
       </nav>
-      <hr />
-      <h1>Rod Wave</h1>
+      <h1 class="Artist-name Artist-name-larger">Rod Wave</h1>
     </header>
-    <section>
-      <h2>MUSIC</h2>
-      <div>
-        <div><strong>Album 1</strong></div>
-        <img src="images/PTSD.jpg" alt="PTSD Album" />
-        <div>
-          <span>$9.99</span>
-          <button role="button">ADD TO CART</button>
+    <section class="container content-section">
+      <h2 class="section-header">MUSIC</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Album 1</span>
+          <img src="images/PTSD.jpg" alt="PTSD Album" class="shop-item-image" />
+          <div class="shop-item-detail">
+            <span class="shop-item-price">$9.99</span>
+            <button role="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
+          </div>
         </div>
-      </div>
-      <div>
-        <div><strong>Album 2</strong></div>
-        <img src="images/Ghetto Gospel.jpg" alt="Ghetto Gospel Album" />
-        <div>
-          <span>$12.99</span>
-          <button role="button">ADD TO CART</button>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 2</span>
+          <img
+            src="images/Ghetto Gospel.jpg"
+            alt="Ghetto Gospel Album"
+            class="shop-item-image"
+          />
+          <div class="shop-item-detail">
+            <span class="shop-item-price">$12.99</span>
+            <button role="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
+          </div>
         </div>
-      </div>
-      <div>
-        <div><strong>Album 3</strong></div>
-        <img src="images/Pray4Love.jpg" alt="Pray4Love Album" />
         <div>
-          <span>$14.99</span>
-          <button role="button">ADD TO CART</button>
+          <span class="shop-item-title">Album 3</span>
+          <img
+            src="images/Pray4Love.jpg"
+            alt="Pray4Love Album"
+            class="shop-item-image"
+          />
+          <div class="shop-item-detail">
+            <span class="shop-item-price">$14.99</span>
+            <button role="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
+          </div>
         </div>
-      </div>
-      <div>
-        <div><strong>Album 4</strong></div>
-        <img src="images/SoulFly.jpg" alt="SoulFly Album" />
         <div>
-          <span>$19.99</span>
-          <button role="button">ADD TO CART</button>
+          <span class="shop-item-title">Album 4</span>
+          <img
+            src="images/SoulFly.jpg"
+            alt="SoulFly Album"
+            class="shop-item-image"
+          />
+          <div class="shop-item-detail">
+            <span class="shop-item-price">$19.99</span>
+            <button role="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
+          </div>
         </div>
       </div>
     </section>
-    <section>
-      <h2>MERCH</h2>
-      <div>
-        <div><strong>SoulFly Hoodie</strong></div>
-        <img src="images/SoulFlyHoodie.jpg" alt="SoulFly Hoodie" />
-        <div>
-          <span>$60.00</span>
-          <button role="button">ADD TO CART</button>
+    <section class="container content-section">
+      <h2 class="section-header">MERCH</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">SoulFly Hoodie</span>
+          <img
+            src="images/SoulFlyHoodie.jpg"
+            alt="SoulFly Hoodie"
+            class="shop-item-image"
+          />
+          <div class="shop-item-detail">
+            <span class="shop-item-price">$60.00</span>
+            <button role="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
+          </div>
         </div>
-      </div>
-      <div>
-        <div><strong>Bottom Boy Survivor Beanie</strong></div>
-        <img src="images/bbs-beanie.jpg" alt="Bottom-boy-survivor-Beanie" />
-        <div>
-          <span>$25.00</span>
-          <button role="button">ADD TO CART</button>
+        <div class="shop-item">
+          <span class="shop-item-title">Bottom Boy Survivor Beanie</span>
+          <img
+            src="images/bbs-beanie.jpg"
+            alt="Bottom-boy-survivor-Beanie"
+            class="shop-item-image"
+          />
+          <div class="shop-item-detail">
+            <span class="shop-item-price">$25.00</span>
+            <button role="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
+          </div>
         </div>
       </div>
     </section>
-    <section>
-      <h2>CART</h2>
-      <div>
-        <strong>ITEM</strong>
-        <strong>PRICE</strong>
-        <strong>QUANTITY</strong>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
       </div>
-      <div>
-        <img src="images/SoulFlyHoodie.jpg" alt="SoulFly Hoodie" />
-        <span>SoulFly Hoodie</span>
-        <span>$60.00</span>
-        <input type="number" value="2" />
-        <button role="button">REMOVE</button>
+      <div class="cart-items">
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              src="images/SoulFlyHoodie.jpg"
+              alt="SoulFly Hoodie"
+              class="cart-item-image"
+            />
+            <span class="cart-item-title">SoulFly Hoodie</span>
+          </div>
+          <span class="cart-price cart-column">$60.00</span>
+          <div class="cart-quantity cart-column">
+            <input type="number" value="2" class="cart-quantity-input" />
+            <button role="button" class="btn btn-danger">REMOVE</button>
+          </div>
+        </div>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              src="images/SoulFly.jpg"
+              alt="SoulFly Album"
+              class="cart-item-image"
+            />
+            <span class="cart-item-title">SoulFly Album</span>
+          </div>
+          <span class="cart-price cart-column">$19.99</span>
+          <div class="cart-quantity cart-column">
+            <input type="number" value="1" class="cart-quantity-input" />
+            <button role="button" class="btn btn-danger">REMOVE</button>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="images/SoulFly.jpg" alt="SoulFly Album" />
-        <span>SoulFly Album</span>
-        <span>$19.99</span>
-        <input type="number" value="1" />
-        <button role="button">REMOVE</button>
+      <div class="cart-total">
+        <span class="cart-total-title">Total</span>
+        <span class="cart-total-price">$139.99</span>
       </div>
-      <hr />
-      <div>
-        <strong>Total</strong>
-        <span>$139.99</span>
-      </div>
-      <div>
-        <button role="button">PURCHASE</button>
-      </div>
+        <button role="button" class="btn btn-primary btn-purchase">PURCHASE</button>
     </section>
 
-    <footer>
-      <h3>Rod Wave</h3>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/rodwave" target="_blank">
-            <img src="images/Facebook Logo.png" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UCenjunBhBhvKjfDAESnoppw"
-            target="_blank"
-          >
-            <img src="images/YouTube Logo.png" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://open.spotify.com/artist/45TgXXqMDdF8BkjA83OM7z"
-            target="_blank"
-          >
-            <img src="images/Spotify Logo.png" />
-          </a>
-        </li>
-      </ul>
+    <footer class="main-footer">
+      <h3 class="Artist-name">Rod Wave</h3>
+      <div class="container main-footer-container">
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.facebook.com/rodwave" target="_blank">
+              <img src="images/Facebook Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCenjunBhBhvKjfDAESnoppw"
+              target="_blank"
+            >
+              <img src="images/YouTube Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/artist/45TgXXqMDdF8BkjA83OM7z"
+              target="_blank"
+            >
+              <img src="images/Spotify Logo.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
 
     <script src="script.js" async defer></script>

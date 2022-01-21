@@ -1,88 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rod Wave</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="store.html">STORE</a></li>
-                </ul>
-            </nav>
-            <hr/>
-            <h1>Rod Wave</h1>
-            <button type="button">Get My Lastest Album</button>
-            <br/>
-            <br/>
-            <button type="button">&#9658;</button>
-            <!-- Add background image later -->
-        </header>
-        <section>
-            <h2>TOURS</h2>
-            <div>
-                <div>
-                    <strong>Fri Oct 15</strong>
-                    <span>Salt Lake City, UT</span>
-                    <span>The Union Event Center</span>
-                    <button type="button">Buy Tickets</button>
-                    <hr/>
-                </div>
-                <div>
-                    <strong>Sun Oct 17</strong>
-                    <span>Phoenix, AZ</span>
-                    <span>The Van Buren</span>
-                    <button type="button">Buy Tickets</button>
-                    <hr/>
-                </div>
-                <div>
-                    <strong>Tue Oct 19</strong>
-                    <span>Los Angeles, CA</span>
-                    <span>Hollywood Palladium</span>
-                    <button type="button">Buy Tickets</button>
-                    <hr/>
-                </div>
-                <div>
-                    <strong>Wed Oct 20</strong>
-                    <span>San Diego, CA</span>
-                    <span>Cal Coast Credit Union Open Air Theatre at SDSU</span>
-                    <button type="button">Buy Tickets</button>
-                    <hr/>
-                </div>
-                <div>
-                    <strong>Thu Oct 21</strong>
-                    <span>San Francisco, CA</span>
-                    <span>Bill Graham Civic Auditorium</span>
-                    <button type="button">Buy Tickets</button>
-                    <hr/>
-                </div>
-                <div>
-                    <strong>Sat Oct 23</strong>
-                    <span>Seattle, WA</span>
-                    <span>WAMU Theater</span>
-                    <button type="button">Buy Tickets</button>
-                    <hr/>
-                </div>
-            </div>
-        </section>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rod Wave</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="store.html">STORE</a></li>
+        </ul>
+      </nav>
+      <h1 class="Artist-name Artist-name-larger">Rod Wave</h1>
+      <div class="container">
+        <button type="button" class="btn btn-header">
+          Get My Lastest Album
+        </button>
+      </div>
+      <br />
+      <br />
+      <button type="button" class="btn btn-header btn-play">&#9658;</button>
+    </header>
+    <section class="content-section container">
+      <h2 class="section-header">TOURS</h2>
+      <div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">Fri Oct 15</span>
+          <span class="tour-item tour-city">Salt Lake City, UT</span>
+          <span class="tour-item tour-arena">The Union Event Center</span>
+          <button type="button" class="btn tour-item tour-btn btn-primary">
+            Buy Tickets
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">Sun Oct 17</span>
+          <span class="tour-item tour-city">Phoenix, AZ</span>
+          <span class="tour-item tour-arena">The Van Buren</span>
+          <button type="button" class="btn tour-item tour-btn btn-primary">
+            Buy Tickets
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">Tue Oct 19</span>
+          <span class="tour-item tour-city">Los Angeles, CA</span>
+          <span class="tour-item tour-arena">Hollywood Palladium</span>
+          <button type="button" class="btn tour-item tour-btn btn-primary">
+            Buy Tickets
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">Wed Oct 20</span>
+          <span class="tour-item tour-city">San Diego, CA</span>
+          <span class="tour-item tour-arena"
+            >Cal Coast Credit Union Open Air Theatre at SDSU</span
+          >
+          <button type="button" class="btn tour-item tour-btn btn-primary">
+            Buy Tickets
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">Thu Oct 21</span>
+          <span class="tour-item tour-city">San Francisco, CA</span>
+          <span class="tour-item tour-arena">Bill Graham Civic Auditorium</span>
+          <button type="button" class="btn tour-item tour-btn btn-primary">
+            Buy Tickets
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">Sat Oct 23</span>
+          <span class="tour-item tour-city">Seattle, WA</span>
+          <span class="tour-item tour-arena">WAMU Theater</span>
+          <button type="button" class="btn tour-item tour-btn btn-primary">
+            Buy Tickets
+          </button>
+        </div>
+      </div>
+    </section>
 
-        <footer>
-            <h3>Rod Wave</h3>
-            <ul>
-                <li><img src="images/Facebook Logo.png"/></li>
-                <li><img src="images/YouTube Logo.png"/></li>
-                <li><img src="images/Spotify Logo.png"/></li>
-            </ul>
-        </footer>
-
-        
-        <script src="script.js" async defer></script>
-    </body>
+    <footer class="main-footer">
+      <h3 class="Artist-name">Rod Wave</h3>
+      <div class="container main-footer-container">
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.facebook.com/rodwave" target="_blank">
+              <img src="images/Facebook Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCenjunBhBhvKjfDAESnoppw"
+              target="_blank"
+            >
+              <img src="images/YouTube Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/artist/45TgXXqMDdF8BkjA83OM7z"
+              target="_blank"
+            >
+              <img src="images/Spotify Logo.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js" async defer></script>
+  </body>
 </html>
