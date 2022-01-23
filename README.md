@@ -15,7 +15,7 @@ Project is created with:
 
 ##### The Site
 
-![HomePage](images/RodwaveAboutPage.png)
-![AboutPage](images/rodwaveAboutScreenShot.png)
+![HomePage](images/RodwaveHomePage.png)
+![AboutPage](images/rodwaveAboutPage.png)
 ![StorePage](images/rodwaveStorePage.png)
 
